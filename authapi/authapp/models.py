@@ -8,5 +8,5 @@ class users(models.Model):
     password = models.CharField(max_length=10)
     
 
-    def __str__(self):
+    def __str__(self): 
         return self.firstname
